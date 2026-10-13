@@ -1,0 +1,19 @@
+{
+  "data_inventory": {
+    "triage_messages": {
+      "elements": ["symptoms", "urgency_score", "clinic_id"],
+      "classification": "Sensitive Personal Health Data",
+      "lawful_basis": "Teaching Field: Section 30 Consent / Specific Medical Necessity (Legal Review Pending)"
+    },
+    "mcp_queries": {
+      "elements": ["item_id", "clinic_id", "timestamp"],
+      "classification": "Operational Logistics Metadata",
+      "lawful_basis": "Teaching Field: Legitimate Operations Execution"
+    },
+    "audit_logs": {
+      "elements": ["actor", "action", "payload_sha256"],
+      "classification": "Security Logging Access Trail",
+      "lawful_basis": "Teaching Field: Statutory Security Monitoring Obligation"
+    }
+  }
+}

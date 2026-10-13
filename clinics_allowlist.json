@@ -1,0 +1,8 @@
+{
+  "description": "Authorized Clinic Mappings for AfyaPlus Logistics Node Operations",
+  "allowed_identifiers": [
+    "CLINIC_NAIROBI_01",
+    "CLINIC_MOMBASA_02",
+    "CLINIC_KISUMU_03"
+  ]
+}
